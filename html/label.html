@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문조사 폼 작성하기</title>
+</head>
+<body>
+    <form>
+        <h2>설문조사</h2>
+        <label for="textInput">name</label>    
+     <input type="text" id="text Input" />
+    <br/>
+    <label for="textInput">email</label> 
+    <input type="email" placeholder="example@naver.com" >
+    <br/>
+    
+    <h4>나이</h4>
+     <input type="radio" name="img"> 10대
+     <input type="radio" name="img"> 20대
+     <input type="radio" name="img"> 30대
+     <input type="radio" name="img"> 40대
+     <input type="radio" name="img"> 50대
+     <input type="radio" name="img"> 60대 이상
+
+
+     <h4>원하는 강의는?(복수선택가능)</h4>
+     <input type="checkbox" name="input"/>HTML
+     <input type="checkbox" name="input"/>JAVASCRIT
+     <input type="checkbox" name="input"/>CSS
+
+    <br/>
+     <textarea cols="100" rows="10" placeholder="하고싶은 말을 작성하세요"></textarea>
+     <input type="submit" value="제출">
+    </form>
+</body>
+</html>
