@@ -1,0 +1,30 @@
+.background-image{
+    width: 500px;
+    height: max-content;
+    /* background-color: red; */
+    border: 1px solid black;
+    background-image: url('https://blog.kakaocdn.net/dn/0mySg/btqCUccOGVk/nQ68nZiNKoIEGNJkooELF1/img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-attachment: fixed; */
+}
+/* css */
+.insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background:linear-gradient(#833ab4, #fd1d1d, #fcb045);
+    border-radius: 50%;
+}
+.img{
+    border: 5px solid white;
+    width: 470px;
+    height: 470px;
+    background-image: url('https://blog.kakaocdn.net/dn/0mySg/btqCUccOGVk/nQ68nZiNKoIEGNJkooELF1/img.jpg');
+    border-radius: 50%;
+    background-size: contain;
+
+}
