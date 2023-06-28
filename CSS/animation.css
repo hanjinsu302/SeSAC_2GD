@@ -1,0 +1,97 @@
+/* transition vs animation
+   - transition
+     - hover, onclick, active 등의 이벤트에 의해 발생됨
+   -animation
+     - '중간스탭'을 지정해 보잗 세밀한 스타일 전환   */
+
+.text{
+    font-size: 20px;
+    position: relative;
+    animation: text 2s 1 linear;
+
+}  
+@keyframes text{
+    to{
+        left: 0%;
+        width: 200%;
+    }
+    from{
+        width: 100%;
+        left: 100%;
+    }
+}   
+.box{
+    border-radius: 50%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+   animation-name: box;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   /* animation-delay: 3s; */
+}
+@keyframes box{
+    0%{
+        top:0px;
+        left: 0px;
+    }
+    25%{
+        top:0px;
+         left: calc(100% - 100px);;
+    }
+    50%{
+        top:calc(100% - 100px);;
+        left: calc(100% - 100px);;
+    }
+    75%{
+        top:calc(100% - 100px);;
+        left: 0px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.ball{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    animation: ball 1s ease-out infinite alternate;
+}
+
+@keyframes ball{
+    to{
+        top: 0px;
+    }
+    from{
+        top: 300px;
+    }
+}
+
+.ball2{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    position: absolute;
+    left: 200px;
+    border-radius: 50%;
+    animation: ball2 5s infinite ;
+}
+@keyframes ball2{
+    to, from{
+        bottom: 0px;
+        animation-timing-function: ease-out;
+    }
+
+    50%{
+        bottom: 300px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+}
+
