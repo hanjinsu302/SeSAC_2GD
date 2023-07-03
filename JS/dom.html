@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>요소 선택하기</title>
+    <script defer src="./dom.js"></script>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            text-align: center;
+            line-height: 100px;
+            margin: 10px;
+        }
+        .pink{
+            background-color: pink;
+        }
+        #green{
+            background-color: green;
+        }
+        #red{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="pink">1</div>
+    <div class="pink">2</div>
+    <div class="pink">3</div>
+    <div class="pink">4</div>
+    <div id="green" class="others">green</div>
+    <div id="red" class="others">red</div>
+
+    <!-- Name속성 -->
+    <input type="text" name="id">
+    <input type="text" name="id">
+</body>
+</html>
