@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'JeonjuSunR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/JeonjuSunR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DeogonPrincessClassic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/DeogonPrincessClassic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OKCHAN';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/OKCHAN.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body { height: 100%; margin: 0; }
+section { width: 100%; height: 100%; position: relative; display: flex; justify-content: center; align-items: center; }
+.section01 { 
+    background-image: url(https://i.pinimg.com/564x/55/d1/83/55d183f50eac42fc594d684cb205243e.jpg);
+    font-size: 30px;
+    text-align: center; 
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    font-family: 'JeonjuSunR';
+    font-family: 'OKCHAN';
+    font-size: 90px;
+    text-align: center;
+    width: 100%;
+    height: min-content;
+    /* background-color: aqua; */
+}
+.head{
+    border:  3px solid rgb(39, 37, 37);
+    width: 95%;
+    height: min-content;
+    display: flex;
+    
+}
+.head1{
+    font-family: 'JeonjuSunR';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(40, 38, 38);
+    height: min-content;
+    width: 15%;
+}
+.head2{
+    width: 80%;
+    font-family: 'DeogonPrincessClassic';
+}
+.main{
+    margin-top: 15px;
+    border:  6px double black;
+    border-style: double;
+    width: 95%;
+    height: 74%;
+}
+.maintop{
+    font-family: 'JeonjuSunR';
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.maintop1{
+    font-family: 'SDSamliphopangche_Outline';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.807);
+    width: 15%;
+    color: aliceblue;
+}
+.maintop2{
+    font-family: 'DeogonPrincessClassic';
+    width: 35%;
+}
+.boy{
+    margin: 10px;
+    font-family: 'JeonjuSunR';
+    font-size: 90px;
+    font-weight: 800;
+}
+.img{
+    border:  6px double black;
+    border-style: double;
+    margin: 0px 40px 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 150px;
+    box-shadow: 3px 3px 3px 3px rgb(66, 65, 65) inset;
+}
+
+.mainbottom{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: min-content;
+    /* justify-content: space-around; */
+}
+.mainbottom1{
+    font-family: 'DeogonPrincessClassic';
+    width: 25%;
+    font-size: 22px;
+
+}
+.mainbottom2{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    
+}
+.H{
+     font-family: 'OKCHAN';
+     font-size: 100px;
+}
+.H2{
+    font-size: 22px;
+    font-family: 'DeogonPrincessClassic';
+
+}
+
+.mainbottom4{
+    margin: 0px 40px 0px 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min-content;   
+}
+.bottom4{
+    margin-top: 10px;
+    font-family: 'DeogonPrincessClassic';
+}
+.mainfooter{
+    display: flex;
+
+}
+.mainfooter1{
+    width: 30%;
+    margin:10px 30px 0px 30px;
+    font-family: 'DeogonPrincessClassic';
+    font-size: 22px;
+}
+.mainfooter2{
+    font-family: 'OKCHAN';
+    font-size: 90px;
+
+}
+.section02 { background: yellowgreen; }
+.section03 { background: firebrick; }
+.section04 { background: cornflowerblue; }
+.section05 { background: seagreen; }
