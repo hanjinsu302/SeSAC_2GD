@@ -1,0 +1,13 @@
+html, body { height: 100%; margin: 0; }
+#container { height: 100%; position: relative; overflow: hidden; }
+section { width: 100%; height: 100%; position: absolute; }
+.section01 { background: orange; width: 100%; height: 100%; }
+.section02 { background: yellowgreen; }
+.section03 { background: firebrick; }
+.section04 { background: cornflowerblue; }
+.section05 { background: seagreen; }
+.section06 { background: rgb(205, 218, 210); }
+.section07 { background: rgb(11, 22, 16); }
+.section08 { background: rgb(205, 172, 24); }
+.section09 { background: rgb(197, 195, 185); }
+.section10 { background: rgb(64, 54, 8); }
