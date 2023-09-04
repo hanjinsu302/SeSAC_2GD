@@ -1,0 +1,30 @@
+.box2{
+    background-color: greenyellow;
+}
+
+
+.box2 div{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    width:  300px;
+    height: 150px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.first{
+    color: darkorange;
+    font-size: 1.5rem;
+}
+
+.second{
+    background-color: rgb(60, 46, 30);
+    border: 2px solid darkgoldenrod;
+}
+
+.stateVal2{
+    color: pink;
+    border-radius: 50px;
+}
