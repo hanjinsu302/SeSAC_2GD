@@ -1,0 +1,117 @@
+@import "reset"; 
+@import "mixin";
+$boxShadow: 2px 2px 6px rgb(0, 0, 0);
+.div1{
+    width: 100%;
+    height: 50vh;
+    background-color: red;
+    .div2{
+        width: 80%;
+        height: 50%;
+        background-color: orange;
+        box-shadow: inset 2px 2px 6px rgb(0, 0, 0);
+        .div3{
+            width: 80%;
+            height: 50%;
+            box-shadow: $boxShadow;
+            background-color: yellow;
+        }
+    }
+    .btn{
+        width: 180px;
+        height: 70px;
+        border-radius: 15px;
+        box-shadow: $boxShadow;
+       line-height: 70px;
+       color: rgb(107, 107, 107);
+       text-align: center;
+       font-size: 23px;
+       letter-spacing: 3px;
+
+       &.orangered{
+        background-color: orangered;
+       }
+       &--opacity{
+        opacity: 0.5;
+       }
+       &--blue{
+        background-color: blue;
+       }
+       &:hover{
+        color: yellow;
+       }
+    }
+}
+.container{
+    .box1{
+        @include square1;
+        background-color: blue;
+    }
+    .circle {
+        @include circle($circleColor: gray, $circleOpacity:0.5)
+        
+    }
+    .box2 {
+        // @include square2;
+        &:nth-of-type(4){
+            @include square2(yellow, 20px, navy)
+        }
+        &:nth-of-type(5){
+            @include square2(black, 20px, red)
+        }
+        &:nth-of-type(6){
+            @include square2(navy, 20px, rgb(125, 81, 81))
+        }
+    }
+}
+.img-test{
+    width: 100px;
+    height: 100px;
+    border:  1px solid blue;
+    &.src-img{
+        background-image: url('../sass/img1.png');
+
+    }
+    &.public-img {
+        background-image: url('../../public/img1.png');
+
+    }
+}
+
+.practice{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    .items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20vw;
+        height: 30vw;
+        background-color: rgb(32, 62, 237);
+        border-radius: 20px;
+        background-size:contain;
+        .img{
+            width: 60%;
+            &:hover{
+                width: 70%;
+            }
+        }
+       
+        // &.item1{
+        //     background-image: url('../sass/img1.png');
+        // }
+        // &.item2{
+        //     background-image: url('../sass/img2.png');
+            
+        // }
+        // &.item3{
+        //     background-image: url('../sass/img3.png');
+        // }
+        // &.item4{
+        //     background-image: url('../sass/img4.png');
+        // }
+    }
+
+}

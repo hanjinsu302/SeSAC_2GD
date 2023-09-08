@@ -1,8 +1,6 @@
 import logo from './logo.svg';
 import styled, { keyframes } from "styled-components";
 import "./styles/style.scss"; 
-import UseScss from './components/UseScss';
-import UseMemo from './components/05_UseMemoObj';
 // import keyframes from 'styled-components';
 
 
@@ -39,10 +37,14 @@ pointer-events: none;
 const MyA = styled.a
 `color: #61dafb;` ;
   return (
-    <>
-    {/* <UseScss /> */}
-    <UseMemo />
-    </>
-  )
+<RootDiv> 
+  <AppHeader>
+        <AppLogo src={logo} alt="app" />
+        <p> Styled 적용을 위해 변경 된 App.js
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+      <MyA href="https://reactjs.org" target="_blank" rel="noopener noreferrer">run to react</MyA>
+      </AppHeader>
+</RootDiv> );
 }
 export default App;
