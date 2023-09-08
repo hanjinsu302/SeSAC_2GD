@@ -3,6 +3,8 @@ import styled, { keyframes } from "styled-components";
 import "./styles/style.scss"; 
 import UseScss from './components/UseScss';
 import UseMemo from './components/05_UseMemoObj';
+import UseReucer from './components/07_UseReducer';
+import ContextTheme from './components/08_ContextTheme';
 // import keyframes from 'styled-components';
 
 
@@ -41,7 +43,10 @@ const MyA = styled.a
   return (
     <>
     {/* <UseScss /> */}
-    <UseMemo />
+    {/* <UseMemo /> */}
+    {/* <UseReucer/> */}
+    <ContextTheme />
+
     </>
   )
 }
